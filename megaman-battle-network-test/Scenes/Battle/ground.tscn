@@ -1,0 +1,105 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0b3rycq2ogcr"]
+
+[ext_resource type="Script" uid="uid://8mjeu8742t8n" path="res://Scripts/Battle/ground.gd" id="1_vjtes"]
+[ext_resource type="PackedScene" uid="uid://cc76b1iobhwh2" path="res://Scenes/Battle/tile.tscn" id="2_e5bwa"]
+
+[node name="Ground" type="Node2D"]
+script = ExtResource("1_vjtes")
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Tile1" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(8, 8)
+
+[node name="Tile2" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(39, 8)
+
+[node name="Tile3" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(8, 21)
+
+[node name="Tile4" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(39, 21)
+
+[node name="Tile5" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(70, 8)
+
+[node name="Tile6" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(101, 8)
+
+[node name="Tile7" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(70, 21)
+
+[node name="Tile8" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(101, 21)
+
+[node name="Tile9" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(8, 34)
+
+[node name="Tile10" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(39, 34)
+
+[node name="Tile11" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(8, 47)
+
+[node name="Tile12" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(39, 47)
+
+[node name="Tile13" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(70, 34)
+
+[node name="Tile14" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(101, 34)
+
+[node name="Tile15" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(70, 47)
+
+[node name="Tile16" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(101, 47)
+
+[node name="Tile17" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(132, 8)
+
+[node name="Tile18" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(163, 8)
+
+[node name="Tile19" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(132, 21)
+
+[node name="Tile20" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(163, 21)
+
+[node name="Tile21" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(194, 8)
+
+[node name="Tile22" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(225, 8)
+
+[node name="Tile23" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(194, 21)
+
+[node name="Tile24" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(225, 21)
+
+[node name="Tile25" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(132, 34)
+
+[node name="Tile26" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(163, 34)
+
+[node name="Tile27" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(132, 47)
+
+[node name="Tile28" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(163, 47)
+
+[node name="Tile29" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(194, 34)
+
+[node name="Tile30" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(225, 34)
+
+[node name="Tile31" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(194, 47)
+
+[node name="Tile32" parent="Node" instance=ExtResource("2_e5bwa")]
+position = Vector2(225, 47)
